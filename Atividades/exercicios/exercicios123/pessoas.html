@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <a href="home.html">Home</a>
+        <a href="estados.html">Estados</a>
+        <a href="cidades.html">Cidades</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="pessoas.html">Pessoas</a>
+        <a href="compras.html">Compras</a>
+        <a href="perfil.html">Perfil</a>
+        <a href="sair.html">Sair</a>
+    </head>
+    <body>  
+        <div>
+            <p>Cadastro:</p>
+            <form action="get" action="validar.html">
+
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                </div>
+
+                <div>Gênero:
+                    <br>
+                    <input type="radio" name="genero" id="masculino" value="M">
+                    <label for="masculino">Masculino</label>
+                    <br>
+                    <input type="radio" name="genero" id="feminino" value="F">
+                    <label for="feminino">Feminino</label>
+                    <br>                        
+                    <input type="radio" name="genero" id="NB" value="NB">
+                    <label for="NB">NB</label>
+                </div>
+
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                </div>
+
+                <div>
+                    <label for="endereco">Endereço: </label>
+                    <input type="text" name="endereco" id="endereco" placeholder="Endereço">
+                </div>
+                <input type="submit" value="Cadastrar">
+                
+                <br>
+                <br>
+
+                <div>
+
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>Nome</th>
+                                <th>Gênero</th>
+                                <th>E-mail</th>
+                                <th>Endereço</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Felipe Brito</td>
+                                <td>Masculino</td>
+                                <td>frsbrito@gmail.com</td>
+                                <td>Rua São Tomás de Aquino 128</td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+            </form>
+        </div>
+    </body>
+        
+</html>
