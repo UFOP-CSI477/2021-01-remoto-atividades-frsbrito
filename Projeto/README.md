@@ -24,12 +24,12 @@
   -Solicitação de nova reserva de passagem\
   -Consulta de passagens já reservadas\
   -Cancelamento de passagem previamente reservada\
-  -Envio de e-mails de confirmação de cadastro, cancelamento de reservas passagem\
+  -Envio de e-mails de confirmação de cadastro, cancelamento de passagens reservadas
   
-  Será utilizado um banco de dados externo para armazenamento das informações que o sistema utilizará.\
-  Inicialmente é previsto o desenvolvimento de:\ 
-  1. Tela de login inicial\
-  2. Tela de cadastro de usuário\
+  Será utilizado um banco de dados externo para armazenamento das informações que o sistema utilizará.
+  Inicialmente é previsto o desenvolvimento de:
+  1. Tela de login inicial
+  2. Tela de cadastro de usuário
   3. Menu inicial de opções (Cadastro/Consulta/Cancelamento)
   4. Tela de solicitação de reserva
   5. Tela de consulta de reservas
